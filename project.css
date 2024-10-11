@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: o;
+}
+.nav-list ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+ .nav-list ul li.ui a{
+    margin-right: 100px;
+    justify-content: space-around;
+}
+.ja{
+    margin-left: 10px;
+}
+.nav-list li{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+}
+ .nav-list li a.pi{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+ .nav-list li.su{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+#img{
+    width: 25%;
+    margin-left: 10px;
+}
+#igm{
+    width: 25%;
+    margin-left: 10px;
+}
+#sim{
+    width: 25%;
+    margin-left: 10px;
+}
+#ins{
+    width: 25%;
+    margin-left: 10px;
+}
+.nav-list ul .ui{
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.nav-list ul .ji{
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.nav-list ul .pi{
+    padding-right: 500px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+.nav-list ul .ki{
+    padding-right: 250px;
+}
+.nav-list ul .ap{
+    padding-right: 50px;
+}
+.img-fluid:hover{
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 0.5rem;
+    transition: 1s;
+}
